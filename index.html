@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css"> <!-- link stylesheet -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet"> <!-- given font -->
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <header>
+    <input type="checkbox" class="handburger">
+      <div class="handburgerlines">
+      <span class="line line1"></span>
+      <span class="line line2"></span>
+      <span class="line line3"></span>
+      </div>
+    <img src="images/logo.svg" alt="logo" class="logo">
+    <nav class="navbar">
+      <ul class="menuList">
+        <li>
+          <a href="#" class="dropdownbotton">Features <span class="botton"><</span></a>
+          <div class="featuresList">
+            <div>
+              <img src="images/icon-todo.svg" alt="icon-todo">
+              <h2>Todo List</h2>
+            </div>
+            <div>
+              <img src="images/icon-calendar.svg" alt="icon-calendar">
+              <h2>Calendar</h2>
+            </div>
+            <div>
+              <img src="images/icon-reminders.svg" alt="icon-reminders">
+              <h2>Reminders</h2>
+            </div>
+            <div>
+              <img src="images/icon-planning.svg" alt="icon-planning">
+              <h2>Planning</h2>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="dropdownbotton">Company<span class="botton"><</span></a>
+          <div class="companyList">
+            <h2>History</h2>
+            <h2>Our Team</h2>
+            <h2>Blog</h2>
+          </div>
+        </li>
+        <li>
+          <a href="#">Careers</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+      </ul>
+      <div class="RegisterLogin">
+        <a href="#">Login</a>
+        <div class="Register"> <a href="#">Register</a></div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="img">
+    </div>
+    <div class="remoteText">
+      <h2>Make remote work</h2>
+    <p>Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.</p>
+    </div>
+  <div class="learnMore">
+    <a href="#">Learn more</a>
+  </div>
+  <div class="brand">
+    <img src="images/client-databiz.svg" alt="databiz">
+    <img src="images/client-audiophile.svg" alt="client-audiophile">
+    <img src="images/client-meet.svg" alt="client-meet">
+    <img src="images/client-maker.svg" alt="client-maker">
+  </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Awotayo Samuel</a>.
+    </div>
+  </footer>
+
+  
+</body>
+</html>
